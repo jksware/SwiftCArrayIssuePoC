@@ -6,7 +6,7 @@ print("Swift C Array Compiler Issue PoC!")
 // Issue #1
 
 for i in 0..<10 {
-    // Comment the following line to solve the issue #1
+    // Issue #1: bug when compiling
     print("Result: \(i) = \(cArrPocLibrary.CPocLibraryValues[i])")
 
     // Workaround for Issue #1
