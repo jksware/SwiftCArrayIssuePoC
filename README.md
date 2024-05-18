@@ -16,7 +16,7 @@ Another issue is that a Flexible Array Member (FAM) of a struct cannot be
 accessed from Swift. The field is thereby reported as missing by the Swift
 Compiler.
 
-A FAM is c99 feature representing an incomplete array declaration in C (and 
+A FAM is a c99 feature allowing an incomplete array declaration in C (and
 some non-standard C++ implementations), or an array declaration with no 
 specified size in the last position of a struct.
 
